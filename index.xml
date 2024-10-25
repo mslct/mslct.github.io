@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>mslct的数学小屋</title>
+        <link>https://mslct.github.io/</link>
+        <description>Recent content on mslct的数学小屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>mslct</copyright>
+        <lastBuildDate>Thu, 10 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mslct.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>黎曼引理</title>
+        <link>https://mslct.github.io/p/test-chinese/</link>
+        <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://mslct.github.io/p/test-chinese/</guid>
+        <description>&lt;img src="https://mslct.github.io/title.jpg" alt="Featured image of post 黎曼引理" /&gt;&lt;p&gt;若f(x)连续，g(x)为周期为T的连续函数，则：
+&lt;/p&gt;
+$$
+\lim_{n\rightarrow+\infty}\int_Ef(x)g(nx)dx=\int_Ef(x)dx\cdot\int_0^Tg(x)dx
+$$&lt;p&gt;
+证明：
+&lt;strong&gt;关键&lt;/strong&gt;步，化简计算
+&lt;/p&gt;
+$$*不妨设\int_0^Tg(x)dx=0  $$$$即证\lim_{n\rightarrow+\infty}\int_Ef(x)g(nx)dx=0$$&lt;p&gt;
+划分区间$[a,b]$ 为$\lambda$份，且当$n\rightarrow\infty时\lambda\rightarrow\infty$ 得
+&lt;/p&gt;
+$$\int_a^bf(x)g(nx)dx=\sum_{i=1}^{\lambda} \int^{x_i}_{x_{i-1}} f(x)g(nx)dx$$&lt;p&gt;
+使用&lt;strong&gt;加一下减一下&lt;/strong&gt;的技巧
+&lt;/p&gt;
+$$= \sum_{i=1}^\lambda\int^{x_i}_{x_{i-1}} (f(x)-f(x_i)g(nx)dx+\sum_{i=1}^\lambda f(x_i)\int^{x_i}_{x_{i-1}} g(nx)dx$$&lt;p&gt;
+三角不等式
+&lt;/p&gt;
+$$
+|\int_a^bf(x)g(nx)dx|\leq\int_a^b|f(x)g(nx)|dx
+$$$$\leq \sum_{i=1}^\lambda\int^{x_i}_{x_{i-1}} |(f(x)-f(x_i)||g(nx)|dx+\sum_{i=1}^\lambda |f(x_i)|\int^{x_i}_{x_{i-1}} |g(nx)|dx$$&lt;p&gt;
+分段估计，利用&lt;strong&gt;有界性&lt;/strong&gt;
+1.&lt;strong&gt;第一部分&lt;/strong&gt;
+&lt;/p&gt;
+$$
+\sum_{i=1}^\lambda\int^{x_i}_{x_{i-1}} |(f(x)-f(x_i)||g(nx)|dx
+$$$$\leq\sum_{i=1}^\lambda\int^{x_i}_{x_{i-1}} (\sup_{x_1,x_2\in E}|(f(x_1)-f(x_2)|)\cdot(\sup|g(x)|)dx$$$$=(\sup|g|)\sum_{i=1}^\lambda\omega_i\Delta_i$$&lt;p&gt;
+由&lt;strong&gt;黎曼积分存在&lt;/strong&gt;的充要条件得
+&lt;/p&gt;
+$$(\sup|g|)\lim_{\lambda\rightarrow\infty}\sum_{i=1}^\lambda\omega_i\Delta_i=0$$&lt;p&gt;
+&lt;strong&gt;2.第二部分&lt;/strong&gt;
+&lt;/p&gt;
+$$\sum_{i=1}^\lambda |f(x_i)|\int^{x_i}_{x_{i-1}} |g(nx)|dx$$$$\leq(\sup|f|)\sum_{i=1}^\lambda\frac{|G(nx_i)-G(nx_{i-1})|}{n}$$$$\leq(\sup|f|\cdot2\sup|G|)\frac{\lambda}{n}$$$$要使n\rightarrow+\infty时，(\sup|f|\cdot2\sup|G|)\frac{\lambda}{n}\rightarrow0只需取\lambda=\sqrt n.$$&lt;p&gt;
+综上：
+&lt;/p&gt;
+$$\int_a^bf(x)g(nx)dx=\sum_{i=1}^{\lambda} \int^{x_i}_{x_{i-1}} f(x)g(nx)dx=0$$&lt;p&gt;
+&lt;em&gt;&lt;em&gt;注&lt;/em&gt; 处&lt;/em&gt;*：若$\int_0^Tg(x)dx\neq 0$ ，则取$g&amp;rsquo;(x)=g(x)-\frac{x}{T}\int_0^Tg(x)dx$ 利用上述情况即得。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;QED&lt;/strong&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Archives</title>
+        <link>https://mslct.github.io/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://mslct.github.io/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Links</title>
+        <link>https://mslct.github.io/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://mslct.github.io/links/</guid>
+        <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
+&lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;links&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;GitHub&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;GitHub is the world&amp;#39;s largest software development platform.&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;website&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://github.com&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;TypeScript&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;website&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://www.typescriptlang.org&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;ts-logo-128.jpg&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;code&gt;image&lt;/code&gt; field accepts both local and external images.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>https://mslct.github.io/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://mslct.github.io/search/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>关于</title>
+        <link>https://mslct.github.io/%E5%85%B3%E4%BA%8E/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://mslct.github.io/%E5%85%B3%E4%BA%8E/</guid>
+        <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
