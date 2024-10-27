@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>放缩 on mslct的数学小屋</title>
+        <link>http://localhost:1313/categories/%E6%94%BE%E7%BC%A9/</link>
+        <description>Recent content in 放缩 on mslct的数学小屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Thu, 24 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/%E6%94%BE%E7%BC%A9/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>一道n方项求和的极限</title>
+        <link>http://localhost:1313/p/%E4%B8%80%E9%81%93n%E6%96%B9%E9%A1%B9%E6%B1%82%E5%92%8C%E7%9A%84%E6%9E%81%E9%99%90/</link>
+        <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E4%B8%80%E9%81%93n%E6%96%B9%E9%A1%B9%E6%B1%82%E5%92%8C%E7%9A%84%E6%9E%81%E9%99%90/</guid>
+        <description>$$求极限\lim_{n\rightarrow\infty}\sum_{k=1}^{n^2}\frac{1+2^{\frac{1}{2^k}}+\cdots+n^{\frac{1}{n^k}}}{n^2+k^2}$$&lt;p&gt;
+&lt;strong&gt;一道引子&lt;/strong&gt;:我们先求一下这道极限：
+&lt;/p&gt;
+$$\lim_{n\rightarrow\infty}\sum^{n^2}_{k=1}\frac{n}{n^2+k^2}$$&lt;p&gt;
+利用定积分：
+&lt;/p&gt;
+$$=\lim_{n\rightarrow\infty}\frac{1}{n}\sum^{n^2}_{k=1}\frac{1}{1+(\frac{k}{n})^2}$$$$=\lim_{n\rightarrow\infty}\frac{1}{n}\sum^{n^2}_{k=1}\frac{1}{1+(\frac{k}{n})^2}$$$$利用\int_{\frac{k}{n}}^{\frac{k+1}{n}}dx=\int_{\frac{k-1}{n}}^{\frac{k}{n}}dx=\frac{1}{n}并对x进行两端放缩$$$$\sum^{n^2}_{k=1}\int_{\frac{k}{n}}^{\frac{k+1}{n}}\frac{dx}{1+x^2}&lt;\sum^{n^2}_{k=1}\int_{\frac{k}{n}}^{\frac{k+1}{n}}\frac{dx}{1+(\frac{k}{n})^2}=\sum^{n^2}_{k=1}\frac{\frac{1}{n}}{1+(\frac{k}{n})^2}=\sum^{n^2}_{k=1}\int_{\frac{k-1}{n}}^{\frac{k}{n}}\frac{dx}{1+(\frac{k}{n})^2}&lt;\sum^{n^2}_{k=1}\int_{\frac{k-1}{n}}^{\frac{k}{n}}\frac{dx}{1+x^2}$$&lt;p&gt;
+运用夹逼准则,于是有:
+&lt;/p&gt;
+$$\lim_{n\rightarrow\infty}\sum^{n^2}_{k=1}\frac{n}{n^2+k^2}=\lim_{n\rightarrow\infty}\int_0^n\frac{1}{1+x^2}dx$$&lt;h2 id=&#34;arctan-x_0inftyfracpi2&#34;&gt;$$=\arctan x|_0^{+\infty}=\frac{\pi}{2}$$
+&lt;/h2&gt;&lt;p&gt;原题中困扰我们的主要是&lt;strong&gt;分母&lt;/strong&gt;，所以我们要对分母进行估阶，并猜测它与n有关系。
+&lt;/p&gt;
+$$事实上,我们有\sum_{j=1}^nj^{\frac{1}{j^k}}=n+o(n)\qquad\quad k=1,2,3\cdots$$&lt;p&gt;
+要证明这一点，我们进行放缩：
+&lt;/p&gt;
+$$n&lt;1+2^{\frac{1}{2^k}}+\cdots+n^{\frac{1}{n^k}}&lt;1+2^{\frac{1}{2}}+\cdots+n^{\frac{1}{n}}$$$$又\lim_{n\rightarrow\infty}\frac{1+2^{\frac{1}{2}}+\cdots+n^{\frac{1}{n}}}{n}$$$$=\lim_{n\rightarrow\infty}\sqrt[n+1]{n+1}=1$$&lt;p&gt;
+于是，我们回到原题：
+&lt;/p&gt;
+$$\sum^{n^2}_{k=1}\frac{n}{n^2+k^2}&lt;\sum_{k=1}^{n^2}\frac{1+2^{\frac{1}{2^k}}+\cdots+n^{\frac{1}{n^k}}}{n^2+k^2}&lt;\sum^{n^2}_{k=1}\frac{1+2^{\frac{1}{2}}+\cdots+n^{\frac{1}{n}}}{n^2+k^2}$$$$\sum^{n^2}_{k=1}\frac{1+2^{\frac{1}{2}}+\cdots+n^{\frac{1}{n}}}{n^2+k^2}=\frac{1+2^{\frac{1}{2}}+\cdots+n^{\frac{1}{n}}}{n}\cdot\sum^{n^2}_{k=1}\frac{n}{n^2+k^2}$$&lt;p&gt;
+由夹逼准则得到答案为 $\frac{\pi}{2}$&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

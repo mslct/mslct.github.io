@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>求和估阶 on mslct的数学小屋</title>
+        <link>http://localhost:1313/categories/%E6%B1%82%E5%92%8C%E4%BC%B0%E9%98%B6/</link>
+        <description>Recent content in 求和估阶 on mslct的数学小屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Thu, 10 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/%E6%B1%82%E5%92%8C%E4%BC%B0%E9%98%B6/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>0阶欧拉麦克劳林公式</title>
+        <link>http://localhost:1313/p/0%E9%98%B6%E6%AC%A7%E6%8B%89%E9%BA%A6%E5%85%8B%E5%8A%B3%E6%9E%97%E5%85%AC%E5%BC%8F/</link>
+        <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/0%E9%98%B6%E6%AC%A7%E6%8B%89%E9%BA%A6%E5%85%8B%E5%8A%B3%E6%9E%97%E5%85%AC%E5%BC%8F/</guid>
+        <description>&lt;p&gt;欧拉麦克劳林公式（E-M公式）“&lt;strong&gt;建立起积分与和式的桥梁&lt;/strong&gt;”&lt;/p&gt;
+&lt;p&gt;（0阶欧拉麦克劳林公式）
+&lt;/p&gt;
+$$\sum_{a}^{b}f(k)=\int_a^bf(x)dx+\frac{f(a)+f(b)}{2}+\int_a^b(x-[x]-\frac{1}{2})f&#39;(x)dx$$&lt;p&gt;
+证明：
+利用$x-\frac{1}{2}$在实数范围内周期为一的延拓函数
+&lt;/p&gt;
+$$\int_a^b(x-[x]-\frac{1}{2})f&#39;(x)dx=\sum_{k=a}^{b-1}\int_k^{k+1}(x-[x]-\frac{1}{2})f&#39;(x)dx$$&lt;p&gt;
+做变量代换&lt;/p&gt;
+$$=\sum_{k=a}^{b-1}\int_0^{1}(x-\frac{1}{2})f&#39;(x+k)d(x+k)$$$$=\sum_{k=a}^{b-1}\int_0^{1}(x-\frac{1}{2})df(x+k)$$$$=\sum_{k=a}^{b-1}((x-\frac{1}{2})f(x+k)|_0^1-\int_0^1f(x+k)dx)$$$$=\sum_{k=a}^{b-1}\frac{f(k)+f(k+1)}{2}-\int_a^bf(x)dx$$$$=\sum_{a}^{b}f(k)+\frac{f(a)+f(b)}{2}-\int_a^bf(x)dx$$&lt;p&gt;
+QED&lt;/p&gt;
+&lt;p&gt;$$&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

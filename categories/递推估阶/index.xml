@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>递推估阶 on mslct的数学小屋</title>
+        <link>http://localhost:1313/categories/%E9%80%92%E6%8E%A8%E4%BC%B0%E9%98%B6/</link>
+        <description>Recent content in 递推估阶 on mslct的数学小屋</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Example Person</copyright>
+        <lastBuildDate>Thu, 24 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/%E9%80%92%E6%8E%A8%E4%BC%B0%E9%98%B6/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>一类递推函数估阶</title>
+        <link>http://localhost:1313/p/%E4%B8%80%E7%B1%BB%E9%80%92%E6%8E%A8%E5%87%BD%E6%95%B0%E4%BC%B0%E9%98%B6/</link>
+        <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E4%B8%80%E7%B1%BB%E9%80%92%E6%8E%A8%E5%87%BD%E6%95%B0%E4%BC%B0%E9%98%B6/</guid>
+        <description>$$已知或通过talyor得到，形如\frac{1}{x_{n+1}}=\frac{1}{x_{n}}+a+bx_{n}+o(x_n)的递推关系(有时需要平方出常数项)$$$$例：x_{n+1}=\ln(1+x_n)$$$$x_{n+1}=\sin x_n$$$$x_{n+1}=x_n+\frac{1}{x_n}$$&lt;p&gt;
+&lt;strong&gt;迭代法&lt;/strong&gt;：
+第一步，给出余项估计
+第二步：利用递推公式,加强估计
+第三步：求和
+1.利用极限性质给出$x_n$的余项估计：
+&lt;/p&gt;
+$$\exists N,\forall n&gt;N,s.t.\frac{1}{x_n+1}-\frac{1}{x_n}&gt;\frac{a}{2}$$$$\frac{1}{x_n+1}&gt;\frac{1}{x_1}+\frac{a}{2}(n-N+1)$$$$x_{n+1}&lt;\frac{1}{\frac{1}{x_1}+\frac{a}{2}(n-N+1)}=O(\frac{1}{n})$$&lt;p&gt;
+2利用递推公式（&lt;strong&gt;第一项保留&lt;/strong&gt;目的是使能求和）
+&lt;/p&gt;
+$$\frac{1}{x_{n+1}}=\frac{1}{x_{n}}+a+O(\frac{1}{n})$$&lt;p&gt;
+3求和
+&lt;/p&gt;
+$$\frac{1}{x_{n+1}}=\frac{1}{x_{1}}+an+O(\ln n)=an+O(\ln n)$$&lt;p&gt;
+1给出余项估计
+&lt;/p&gt;
+$$x_{n+1}=\frac{1}{an+O(\ln n)}=\frac{1}{an}\cdot\frac{1}{1+O(\frac{\ln n}{n})}=\frac{1}{an}+O(\frac{\ln n}{n^2})$$&lt;p&gt;
+2利用递推公式
+&lt;/p&gt;
+$$\frac{1}{x_{n+1}}=\frac{1}{x_{n}}+a+b(\frac{1}{an}+O(\frac{\ln n}{n^2}))+o(\frac{1}{an}+O(\frac{\ln n}{n^2}))$$$$=\frac{1}{x_{n+1}}=\frac{1}{x_{n}}+a+\frac{b}{an}+o(\frac{1}{n})$$&lt;p&gt;
+3求和
+&lt;/p&gt;
+$$\frac{1}{x_{n+1}}=\frac{1}{x_{1}}+an+\frac{b}{a}\ln n+o(\ln n)$$&lt;p&gt;
+于是有
+&lt;/p&gt;
+$$x_n=\frac{1}{an+\frac{b}{a}\ln n+o(\ln n)}$$$$=\frac{1}{an}\cdot\frac{1}{1+\frac{b\ln n}{a^2n}+o(\frac{\ln n}{n})}$$$$=\frac{1}{an}(1-\frac{b\ln n}{a^2n}+o(\frac{\ln n}{n}))$$&lt;p&gt;
+于是
+&lt;/p&gt;
+$$x_n=\frac{1}{an}-\frac{b}{a^3}\frac{\ln n}{n^2}+o(\frac{\ln n}{n^2})$$</description>
+        </item>
+        
+    </channel>
+</rss>
