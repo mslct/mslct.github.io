@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>mslct的数学小屋</title>
-        <link>https://mslct.github.io/</link>
+        <link>http://localhost:1313/</link>
         <description>Recent content on mslct的数学小屋</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Example Person</copyright>
-        <lastBuildDate>Thu, 24 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mslct.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 24 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>一类递推数列的估阶</title>
-        <link>https://mslct.github.io/p/%E4%B8%80%E7%B1%BB%E9%80%92%E6%8E%A8%E6%95%B0%E5%88%97%E7%9A%84%E4%BC%B0%E9%98%B6/</link>
+        <link>http://localhost:1313/p/%E4%B8%80%E7%B1%BB%E9%80%92%E6%8E%A8%E6%95%B0%E5%88%97%E7%9A%84%E4%BC%B0%E9%98%B6/</link>
         <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://mslct.github.io/p/%E4%B8%80%E7%B1%BB%E9%80%92%E6%8E%A8%E6%95%B0%E5%88%97%E7%9A%84%E4%BC%B0%E9%98%B6/</guid>
+        <guid>http://localhost:1313/p/%E4%B8%80%E7%B1%BB%E9%80%92%E6%8E%A8%E6%95%B0%E5%88%97%E7%9A%84%E4%BC%B0%E9%98%B6/</guid>
         <description>$$已知或通过talyor得到，形如\frac{1}{x_{n+1}}=\frac{1}{x_{n}}+a+bx_{n}+o(x_n)的递推关系(有时需要平方出常数项)$$$$例：x_{n+1}=\ln(1+x_n)$$$$x_{n+1}=\sin x_n$$$$x_{n+1}=x_n+\frac{1}{x_n}$$&lt;p&gt;
 &lt;strong&gt;迭代法&lt;/strong&gt;：
 第一步，给出余项估计
@@ -45,10 +45,10 @@ $$x_n=\frac{1}{an}-\frac{b}{a^3}\frac{\ln n}{n^2}+o(\frac{\ln n}{n^2})$$</descri
         </item>
         <item>
         <title>n方项求和的一道极限</title>
-        <link>https://mslct.github.io/p/n%E6%96%B9%E9%A1%B9%E6%B1%82%E5%92%8C%E7%9A%84%E4%B8%80%E9%81%93%E6%9E%81%E9%99%90/</link>
+        <link>http://localhost:1313/p/n%E6%96%B9%E9%A1%B9%E6%B1%82%E5%92%8C%E7%9A%84%E4%B8%80%E9%81%93%E6%9E%81%E9%99%90/</link>
         <pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://mslct.github.io/p/n%E6%96%B9%E9%A1%B9%E6%B1%82%E5%92%8C%E7%9A%84%E4%B8%80%E9%81%93%E6%9E%81%E9%99%90/</guid>
+        <guid>http://localhost:1313/p/n%E6%96%B9%E9%A1%B9%E6%B1%82%E5%92%8C%E7%9A%84%E4%B8%80%E9%81%93%E6%9E%81%E9%99%90/</guid>
         <description>$$求极限\lim_{n\rightarrow\infty}\sum_{k=1}^{n^2}\frac{1+2^{\frac{1}{2^k}}+\cdots+n^{\frac{1}{n^k}}}{n^2+k^2}$$&lt;p&gt;
 &lt;strong&gt;一道引子&lt;/strong&gt;:我们先求一下这道极限：
 &lt;/p&gt;
@@ -73,10 +73,10 @@ $$\sum^{n^2}_{k=1}\frac{n}{n^2+k^2}&lt;\sum_{k=1}^{n^2}\frac{1+2^{\frac{1}{2^k}}
         </item>
         <item>
         <title>关于裂项</title>
-        <link>https://mslct.github.io/p/%E5%85%B3%E4%BA%8E%E8%A3%82%E9%A1%B9/</link>
+        <link>http://localhost:1313/p/%E5%85%B3%E4%BA%8E%E8%A3%82%E9%A1%B9/</link>
         <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://mslct.github.io/p/%E5%85%B3%E4%BA%8E%E8%A3%82%E9%A1%B9/</guid>
+        <guid>http://localhost:1313/p/%E5%85%B3%E4%BA%8E%E8%A3%82%E9%A1%B9/</guid>
         <description>&lt;p&gt;注:下文$\sum$均表示无穷级数
 &lt;/p&gt;
 $$1.\sum\frac{1}{2^n(1+\sqrt[2n]2)}$$$$改写形式，由平方差公式启发，强行裂项$$&lt;ul&gt;
@@ -104,10 +104,10 @@ $$8.\sum\arctan\frac{1}{2n^2}$$$$利用反三角函数相减的公式，凑出xy
         </item>
         <item>
         <title>0阶欧拉麦克劳林公式</title>
-        <link>https://mslct.github.io/p/0%E9%98%B6%E6%AC%A7%E6%8B%89%E9%BA%A6%E5%85%8B%E5%8A%B3%E6%9E%97%E5%85%AC%E5%BC%8F/</link>
+        <link>http://localhost:1313/p/0%E9%98%B6%E6%AC%A7%E6%8B%89%E9%BA%A6%E5%85%8B%E5%8A%B3%E6%9E%97%E5%85%AC%E5%BC%8F/</link>
         <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://mslct.github.io/p/0%E9%98%B6%E6%AC%A7%E6%8B%89%E9%BA%A6%E5%85%8B%E5%8A%B3%E6%9E%97%E5%85%AC%E5%BC%8F/</guid>
+        <guid>http://localhost:1313/p/0%E9%98%B6%E6%AC%A7%E6%8B%89%E9%BA%A6%E5%85%8B%E5%8A%B3%E6%9E%97%E5%85%AC%E5%BC%8F/</guid>
         <description>&lt;p&gt;欧拉麦克劳林公式（E-M公式）“&lt;strong&gt;建立起积分与和式的桥梁&lt;/strong&gt;”&lt;/p&gt;
 &lt;p&gt;（0阶欧拉麦克劳林公式）
 &lt;/p&gt;
@@ -123,10 +123,10 @@ QED&lt;/p&gt;
         </item>
         <item>
         <title>黎曼引理</title>
-        <link>https://mslct.github.io/p/%E9%BB%8E%E6%9B%BC%E5%BC%95%E7%90%86/</link>
+        <link>http://localhost:1313/p/%E9%BB%8E%E6%9B%BC%E5%BC%95%E7%90%86/</link>
         <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://mslct.github.io/p/%E9%BB%8E%E6%9B%BC%E5%BC%95%E7%90%86/</guid>
+        <guid>http://localhost:1313/p/%E9%BB%8E%E6%9B%BC%E5%BC%95%E7%90%86/</guid>
         <description>&lt;p&gt;若f(x)连续，g(x)为周期为T的连续函数，则：
 &lt;/p&gt;
 $$
@@ -168,10 +168,10 @@ $$\int_a^bf(x)g(nx)dx=\sum_{i=1}^{\lambda} \int^{x_i}_{x_{i-1}} f(x)g(nx)dx=0$$&
         </item>
         <item>
         <title>局部含周期函数的一道积分极限</title>
-        <link>https://mslct.github.io/p/%E5%B1%80%E9%83%A8%E5%90%AB%E5%91%A8%E6%9C%9F%E5%87%BD%E6%95%B0%E7%9A%84%E4%B8%80%E9%81%93%E7%A7%AF%E5%88%86%E6%9E%81%E9%99%90/</link>
+        <link>http://localhost:1313/p/%E5%B1%80%E9%83%A8%E5%90%AB%E5%91%A8%E6%9C%9F%E5%87%BD%E6%95%B0%E7%9A%84%E4%B8%80%E9%81%93%E7%A7%AF%E5%88%86%E6%9E%81%E9%99%90/</link>
         <pubDate>Sat, 19 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://mslct.github.io/p/%E5%B1%80%E9%83%A8%E5%90%AB%E5%91%A8%E6%9C%9F%E5%87%BD%E6%95%B0%E7%9A%84%E4%B8%80%E9%81%93%E7%A7%AF%E5%88%86%E6%9E%81%E9%99%90/</guid>
+        <guid>http://localhost:1313/p/%E5%B1%80%E9%83%A8%E5%90%AB%E5%91%A8%E6%9C%9F%E5%87%BD%E6%95%B0%E7%9A%84%E4%B8%80%E9%81%93%E7%A7%AF%E5%88%86%E6%9E%81%E9%99%90/</guid>
         <description>$$\lim_{x\rightarrow+\infty}\frac{\int^x_0 |sint/t|dt}{lnx}$$&lt;p&gt;
 含周期函数，考虑离散化$x=n\pi\rightarrow\infty$ 使用stolz定理。
 &lt;/p&gt;
@@ -198,10 +198,10 @@ $$&lt;p&gt;
         </item>
         <item>
         <title>含e的x方的无穷积分的一道极限</title>
-        <link>https://mslct.github.io/p/%E5%90%ABe%E7%9A%84x%E6%96%B9%E7%9A%84%E6%97%A0%E7%A9%B7%E7%A7%AF%E5%88%86%E7%9A%84%E4%B8%80%E9%81%93%E6%9E%81%E9%99%90/</link>
+        <link>http://localhost:1313/p/%E5%90%ABe%E7%9A%84x%E6%96%B9%E7%9A%84%E6%97%A0%E7%A9%B7%E7%A7%AF%E5%88%86%E7%9A%84%E4%B8%80%E9%81%93%E6%9E%81%E9%99%90/</link>
         <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://mslct.github.io/p/%E5%90%ABe%E7%9A%84x%E6%96%B9%E7%9A%84%E6%97%A0%E7%A9%B7%E7%A7%AF%E5%88%86%E7%9A%84%E4%B8%80%E9%81%93%E6%9E%81%E9%99%90/</guid>
+        <guid>http://localhost:1313/p/%E5%90%ABe%E7%9A%84x%E6%96%B9%E7%9A%84%E6%97%A0%E7%A9%B7%E7%A7%AF%E5%88%86%E7%9A%84%E4%B8%80%E9%81%93%E6%9E%81%E9%99%90/</guid>
         <description>$$求极限\lim_{n\rightarrow\infty}\frac{\sum^n_{k=1}\frac{e^{k^2}}{k}}{\int_0^ne^{x^2}dx}。$$&lt;p&gt;
 stolz+夹逼/洛必达：
 &lt;/p&gt;
@@ -214,10 +214,10 @@ $$\lim_{n\rightarrow\infty}\frac{\sum^n_{k=1}\frac{e^{k^2}}{k}}{\int_0^ne^{x^2}d
         </item>
         <item>
         <title>一些常见求和的阶</title>
-        <link>https://mslct.github.io/p/%E4%B8%80%E4%BA%9B%E5%B8%B8%E8%A7%81%E6%B1%82%E5%92%8C%E7%9A%84%E9%98%B6/</link>
+        <link>http://localhost:1313/p/%E4%B8%80%E4%BA%9B%E5%B8%B8%E8%A7%81%E6%B1%82%E5%92%8C%E7%9A%84%E9%98%B6/</link>
         <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://mslct.github.io/p/%E4%B8%80%E4%BA%9B%E5%B8%B8%E8%A7%81%E6%B1%82%E5%92%8C%E7%9A%84%E9%98%B6/</guid>
+        <guid>http://localhost:1313/p/%E4%B8%80%E4%BA%9B%E5%B8%B8%E8%A7%81%E6%B1%82%E5%92%8C%E7%9A%84%E9%98%B6/</guid>
         <description>&lt;p&gt;对一些常见求和估阶，如：&lt;/p&gt;
 $$\sum_{k=1}^nk^\alpha,\sum_{k=1}^n\frac{1}{k},\sum_{k=1}^n\ln k,\sum_{k=1}^n\ln^\beta k,\sum_{k=1}^n\frac{1}{\ln k},\sum^n_{k=1} k!,\sum_{k=1}^n k^n,\sum_{k=1}^n\frac{1}{k!}\sum_{j=1}^nj^{\frac{1}{j^k}}$$$$\sum_{k=1}^nk^\alpha=\frac{n^{\alpha+1}}{n+1}+\frac{1}{2}n^{\alpha}+o(n^{\alpha})$$$$\sum_{k=1}^n\frac{1}{k}=\ln n+\gamma+\frac{1}{2n}-\frac{1}{12n^2}+\frac{1}{120n^4}+O(\frac{1}{n^6})$$$$\sum_{k=1}^n\ln k=n\ln n-n+\frac{\ln n}{2}+o(\ln n)$$$$\sum_{k=1}^n\frac{1}{\ln k}=\frac{n}{\ln n}+o(\frac{n}{\ln n})$$&lt;p&gt;
 以上都可由E-M公式得到
@@ -226,10 +226,10 @@ $$\sum^n_{k=1} k!=n!+o(n!)$$$$作比证明即可$$$$\sum_{k=1}^n k^n=\frac{e}{e-
         </item>
         <item>
         <title>关于倒序求和的两道极限题</title>
-        <link>https://mslct.github.io/p/%E5%85%B3%E4%BA%8E%E5%80%92%E5%BA%8F%E6%B1%82%E5%92%8C%E7%9A%84%E4%B8%A4%E9%81%93%E6%9E%81%E9%99%90%E9%A2%98/</link>
+        <link>http://localhost:1313/p/%E5%85%B3%E4%BA%8E%E5%80%92%E5%BA%8F%E6%B1%82%E5%92%8C%E7%9A%84%E4%B8%A4%E9%81%93%E6%9E%81%E9%99%90%E9%A2%98/</link>
         <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://mslct.github.io/p/%E5%85%B3%E4%BA%8E%E5%80%92%E5%BA%8F%E6%B1%82%E5%92%8C%E7%9A%84%E4%B8%A4%E9%81%93%E6%9E%81%E9%99%90%E9%A2%98/</guid>
+        <guid>http://localhost:1313/p/%E5%85%B3%E4%BA%8E%E5%80%92%E5%BA%8F%E6%B1%82%E5%92%8C%E7%9A%84%E4%B8%A4%E9%81%93%E6%9E%81%E9%99%90%E9%A2%98/</guid>
         <description>$$1.\lim_{n\rightarrow\infty}\frac{\sum_{k=1}^n\ln C_n^k}{n^2}$$$$2.\lim_{n\rightarrow\infty}\sum_{k=1}^{n}(\frac{k}{n})^n=\lim_{n\rightarrow\infty}\frac{\sum_{k=1}^nk^n}{n^n}$$&lt;p&gt;
 1.解：由stolz：
 &lt;/p&gt;
@@ -263,18 +263,18 @@ $$\forall m &lt; n,\lim_{n\rightarrow\infty}\sum_{k=1}^{n}(1-\frac{k}{n})^n &gt;
         </item>
         <item>
         <title>Archives</title>
-        <link>https://mslct.github.io/archives/</link>
+        <link>http://localhost:1313/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://mslct.github.io/archives/</guid>
+        <guid>http://localhost:1313/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>Links</title>
-        <link>https://mslct.github.io/links/</link>
+        <link>http://localhost:1313/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://mslct.github.io/links/</guid>
+        <guid>http://localhost:1313/links/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -306,18 +306,18 @@ $$\forall m &lt; n,\lim_{n\rightarrow\infty}\sum_{k=1}^{n}(1-\frac{k}{n})^n &gt;
         </item>
         <item>
         <title>Search</title>
-        <link>https://mslct.github.io/search/</link>
+        <link>http://localhost:1313/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://mslct.github.io/search/</guid>
+        <guid>http://localhost:1313/search/</guid>
         <description></description>
         </item>
         <item>
         <title>关于</title>
-        <link>https://mslct.github.io/%E5%85%B3%E4%BA%8E/</link>
+        <link>http://localhost:1313/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://mslct.github.io/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>http://localhost:1313/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
 </description>
         </item>

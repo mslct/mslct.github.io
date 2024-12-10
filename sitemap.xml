@@ -2,53 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://mslct.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-10-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mslct.github.io/post/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <lastmod>2024-10-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mslct.github.io/p/%E4%B8%80%E7%B1%BB%E9%80%92%E6%8E%A8%E6%95%B0%E5%88%97%E7%9A%84%E4%BC%B0%E9%98%B6/</loc>
+    <loc>http://localhost:1313/p/%E4%B8%80%E7%B1%BB%E9%80%92%E6%8E%A8%E6%95%B0%E5%88%97%E7%9A%84%E4%BC%B0%E9%98%B6/</loc>
     <lastmod>2024-10-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mslct.github.io/p/n%E6%96%B9%E9%A1%B9%E6%B1%82%E5%92%8C%E7%9A%84%E4%B8%80%E9%81%93%E6%9E%81%E9%99%90/</loc>
+    <loc>http://localhost:1313/p/n%E6%96%B9%E9%A1%B9%E6%B1%82%E5%92%8C%E7%9A%84%E4%B8%80%E9%81%93%E6%9E%81%E9%99%90/</loc>
     <lastmod>2024-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mslct.github.io/p/%E5%85%B3%E4%BA%8E%E8%A3%82%E9%A1%B9/</loc>
+    <loc>http://localhost:1313/p/%E5%85%B3%E4%BA%8E%E8%A3%82%E9%A1%B9/</loc>
     <lastmod>2024-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mslct.github.io/p/0%E9%98%B6%E6%AC%A7%E6%8B%89%E9%BA%A6%E5%85%8B%E5%8A%B3%E6%9E%97%E5%85%AC%E5%BC%8F/</loc>
+    <loc>http://localhost:1313/p/0%E9%98%B6%E6%AC%A7%E6%8B%89%E9%BA%A6%E5%85%8B%E5%8A%B3%E6%9E%97%E5%85%AC%E5%BC%8F/</loc>
     <lastmod>2024-10-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mslct.github.io/p/%E9%BB%8E%E6%9B%BC%E5%BC%95%E7%90%86/</loc>
+    <loc>http://localhost:1313/p/%E9%BB%8E%E6%9B%BC%E5%BC%95%E7%90%86/</loc>
     <lastmod>2024-10-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mslct.github.io/p/%E5%B1%80%E9%83%A8%E5%90%AB%E5%91%A8%E6%9C%9F%E5%87%BD%E6%95%B0%E7%9A%84%E4%B8%80%E9%81%93%E7%A7%AF%E5%88%86%E6%9E%81%E9%99%90/</loc>
+    <loc>http://localhost:1313/p/%E5%B1%80%E9%83%A8%E5%90%AB%E5%91%A8%E6%9C%9F%E5%87%BD%E6%95%B0%E7%9A%84%E4%B8%80%E9%81%93%E7%A7%AF%E5%88%86%E6%9E%81%E9%99%90/</loc>
     <lastmod>2024-10-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mslct.github.io/p/%E5%90%ABe%E7%9A%84x%E6%96%B9%E7%9A%84%E6%97%A0%E7%A9%B7%E7%A7%AF%E5%88%86%E7%9A%84%E4%B8%80%E9%81%93%E6%9E%81%E9%99%90/</loc>
+    <loc>http://localhost:1313/p/%E5%90%ABe%E7%9A%84x%E6%96%B9%E7%9A%84%E6%97%A0%E7%A9%B7%E7%A7%AF%E5%88%86%E7%9A%84%E4%B8%80%E9%81%93%E6%9E%81%E9%99%90/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mslct.github.io/p/%E4%B8%80%E4%BA%9B%E5%B8%B8%E8%A7%81%E6%B1%82%E5%92%8C%E7%9A%84%E9%98%B6/</loc>
+    <loc>http://localhost:1313/p/%E4%B8%80%E4%BA%9B%E5%B8%B8%E8%A7%81%E6%B1%82%E5%92%8C%E7%9A%84%E9%98%B6/</loc>
     <lastmod>2024-10-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mslct.github.io/p/%E5%85%B3%E4%BA%8E%E5%80%92%E5%BA%8F%E6%B1%82%E5%92%8C%E7%9A%84%E4%B8%A4%E9%81%93%E6%9E%81%E9%99%90%E9%A2%98/</loc>
+    <loc>http://localhost:1313/p/%E5%85%B3%E4%BA%8E%E5%80%92%E5%BA%8F%E6%B1%82%E5%92%8C%E7%9A%84%E4%B8%A4%E9%81%93%E6%9E%81%E9%99%90%E9%A2%98/</loc>
     <lastmod>2024-10-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mslct.github.io/archives/</loc>
+    <loc>http://localhost:1313/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mslct.github.io/page/</loc>
+    <loc>http://localhost:1313/page/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mslct.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://mslct.github.io/links/</loc>
+    <loc>http://localhost:1313/links/</loc>
   </url><url>
-    <loc>https://mslct.github.io/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url><url>
-    <loc>https://mslct.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url><url>
-    <loc>https://mslct.github.io/%E5%85%B3%E4%BA%8E/</loc>
+    <loc>http://localhost:1313/%E5%85%B3%E4%BA%8E/</loc>
   </url>
 </urlset>
