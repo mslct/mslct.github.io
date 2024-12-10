@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="如sinx，ln（1+x）等递推函数。">
-<title>一类递推函数的估阶</title>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="模1均匀分布">
+<title>模1均匀分布与Weyl判别</title>
 
-<link rel='canonical' href='https://mslct.github.io/p/%E4%B8%80%E7%B1%BB%E9%80%92%E6%8E%A8%E5%87%BD%E6%95%B0%E7%9A%84%E4%BC%B0%E9%98%B6/'>
+<link rel='canonical' href='http://localhost:1313/p/%E6%A8%A11%E5%9D%87%E5%8C%80%E5%88%86%E5%B8%83%E4%B8%8Eweyl%E5%88%A4%E5%88%AB/'>
 
-<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="一类递推函数的估阶">
-<meta property='og:description' content="如sinx，ln（1+x）等递推函数。">
-<meta property='og:url' content='https://mslct.github.io/p/%E4%B8%80%E7%B1%BB%E9%80%92%E6%8E%A8%E5%87%BD%E6%95%B0%E7%9A%84%E4%BC%B0%E9%98%B6/'>
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="模1均匀分布与Weyl判别">
+<meta property='og:description' content="模1均匀分布">
+<meta property='og:url' content='http://localhost:1313/p/%E6%A8%A11%E5%9D%87%E5%8C%80%E5%88%86%E5%B8%83%E4%B8%8Eweyl%E5%88%A4%E5%88%AB/'>
 <meta property='og:site_name' content='mslct的数学小屋'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-10-24T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-10-24T00:00:00&#43;00:00'/>
-<meta name="twitter:title" content="一类递推函数的估阶">
-<meta name="twitter:description" content="如sinx，ln（1+x）等递推函数。">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-12-10T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-12-10T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="模1均匀分布与Weyl判别">
+<meta name="twitter:description" content="模1均匀分布">
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -246,7 +246,51 @@
     </ol>
 </aside>
 
-    
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li>
+      <ol>
+        <li><a href="#1-一个判别方法weyls-criterion">1. 一个判别方法,Weyl&rsquo;s criterion:</a></li>
+        <li><a href="#2weyls-criterion能处理的典型问题">2.Weyl&rsquo;s Criterion能处理的典型问题</a>
+          <ol>
+            <li><a href="#21-命题1">2.1 命题1</a></li>
+            <li><a href="#22-命题2">2.2 命题2</a></li>
+            <li><a href="#3-命题3">3. 命题3</a></li>
+            <li><a href="#4还可以利用这种结论证明一些极限问题">4.还可以利用这种结论证明一些极限问题</a></li>
+          </ol>
+        </li>
+        <li><a href="#5-使用weyl判别当中的第二条">5. 使用Weyl判别当中的第二条</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
 
             <main class="main full-width">
     <article class="main-article">
@@ -257,12 +301,12 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/%E4%B8%80%E7%B1%BB%E9%80%92%E6%8E%A8%E5%87%BD%E6%95%B0%E7%9A%84%E4%BC%B0%E9%98%B6/">一类递推函数的估阶</a>
+            <a href="/p/%E6%A8%A11%E5%9D%87%E5%8C%80%E5%88%86%E5%B8%83%E4%B8%8Eweyl%E5%88%A4%E5%88%AB/">模1均匀分布与Weyl判别</a>
         </h2>
     
         
         <h3 class="article-subtitle">
-            如sinx，ln（1&#43;x）等递推函数。
+            模1均匀分布
         </h3>
         
     </div>
@@ -283,7 +327,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">2024-10-24</time>
+                <time class="article-time--published">2024-12-10</time>
             </div>
         
 
@@ -299,35 +343,132 @@
     <section class="article-content">
     
     
-    $$已知或通过talyor得到，形如\frac{1}{x_{n+1}}=\frac{1}{x_{n}}+a+bx_{n}+o(x_n)的递推关系(有时需要平方出常数项)$$$$例：x_{n+1}=\ln(1+x_n)$$$$x_{n+1}=\sin x_n$$$$x_{n+1}=x_n+\frac{1}{x_n}$$<p>
-<strong>迭代法</strong>：
-第一步，给出余项估计
-第二步：利用递推公式,加强估计
-第三步：求和
-1.利用极限性质给出$x_n$的余项估计：
+    <blockquote>
+<p>[!模1均匀分布的概念]
+有界实数列$u_n$称之为模1均匀分布(uniformly distributed/equidistributed)的,如果对于$[0,1]$当中任意子区间$(a,b)$都有(假设$\xi_n={u_n}$其中${x}$表示实数的小数部分）</p>
+$$\frac{\#\{1\leq n\leq N:\xi_n\in(a,b)\}}{N}\overset{N\to\infty}{\longrightarrow}b-a$$<p>也就是考察在任意$(a,b)\subset[0,1]$中，前$N$个$\xi_n$当中在此区间当中的个数占整体的比例的极限。</p>
+</blockquote>
+<p>对此概念的直观的感受：</p>
+<ol>
+<li>$A={\xi_n:n\geq1}$此集合在$[0,1]$当中是稠密的。因为显然任意开区间$(a,b)\cap A$都是一个无限的交集。</li>
+<li><strong>均匀分布</strong>：落在任何一个开区间当中的元素的占比最后极限都一样，也就是说没有哪个地方多或者少，基本都&quot;差不多&quot;。-   什么样的数列不是模1均匀分布的?
+试图从反面来理解这个概念：</li>
+</ol>
+<blockquote>
+<p>[!非模1均匀分布的例子]
+简单的例子$u_n=\frac{1}{n},\xi_n={u_n}=\frac{1}{n}$。首先这个序列组成的集合根本不是稠密的，比如考察$(1/2-\varepsilon,1/2+\varepsilon)$这样一个开区间当中，其中只包含$\xi_2=1/2$这样一个元素，那么序列在此区间当中比例的极限为0，而不是$2\varepsilon$。</p>
+</blockquote>
+<p>假设序列在某个地方存在聚点呢？</p>
+<blockquote>
+<p>[!非模1均匀分布的例子2]
+比如$\xi_n={\frac{1}{2}-\frac{1}{n}}$,这个序列当然不是均匀分布的，因为它同样不是稠密的，并且可以找到很多只包含一个元素，甚至一个元素都不包含的开区间，这些区间当中的此数列前N个数的比例的极限是0.现在考察包含其聚点的开区间，$(1/4,3/4)$,落入此区间的序列的个数占整体的比例为$\frac{N-4}{N}\to1$，然而此区间长度为$1/2$.实际上这样的结果无非就是告诉我们，几乎所有此序列的点都集中在包含聚点$1/2$的开区间里面。因此显然不是均匀分布的。</p>
+</blockquote>
+<p>那么假设序列有多个聚点呢？比如序列在$(0,1)$当中存在两个聚点分别是$1/2,1/3$那么挑选任意只包含一个聚点的开区间，然后计算序列落在此开区间当中的数量占整体的比例的极限，其结果是$1/2$.也就是点基本上聚拢在两个聚点附近。</p>
+<ol start="3">
+<li><strong>稠密但是不均匀分布的例子</strong>：</li>
+</ol>
+<blockquote>
+<p>[!非模1均匀分布的例子3]
+假设$r_n$是对$(0,1)$之间的有理数的一种枚举方式。然后定义</p>
+$$\xi_n:=\begin{cases}r_{n/2}&\text{n is even}\\0&\text{otherwise}\end{cases}$$<p>比如就考察区间$(0,1)$，前$N$个序列的元素当中有不超过$N/2$的元素落在此区间里面。于是最后比例的极限肯定是小于等于$1/2$的。不过和之前的例子不同的是，此序列在$(0,1)$当中是稠密的。</p>
+</blockquote>
+<h3 id="1-一个判别方法weyls-criterion">1. 一个判别方法,Weyl&rsquo;s criterion:
+</h3><blockquote>
+<p>[!Weyl判别,1916]
+以下三者等价：</p>
+<ol>
+<li>
+<p>$u_n$模1均匀分布(${u_n}=\xi_n$)</p>
+</li>
+<li>
+<p>对于任意非零整数$k$    </p>
+$$\frac{1}{N}\sum_{n=1}^{N}e^{2\pi ik u_n}\to0$$</li>
+<li>
+<p>对于任意连续函数$f:[0,1]\to\mathbb{C}$有</p>
+$$\frac{1}{N}\sum_{n=1}^{N}f(\xi_n)\to\int_{0}^{1}f(x)dx$$</li>
+</ol>
+</blockquote>
+<ul>
+<li>如果是$[a,b]$当中均匀分布的，那么最后的结论应该是，假设$\xi_n = u_n \text{ mod }b-a$,于是$$\frac{1}{N}\sum_{n=1}^{N}f(\xi_n)\to\frac{1}{b-a}\int_{a}^{b}f(x)dx$$</li>
+<li>关于第三点，不能扩展其为更广义的积分。例如假设现在考虑Lebesgue可积，定义集合$A={\xi_n,\xi_n&gt;0\text{ and }n=1,2&hellip;.}$,$\chi_{A}(x)$是集合的特征函数，那么显然是L可积的。然而式子的左边$\frac{1}{N}\sum_{n=1}^{N}\chi_A(\xi_n)=1$,式子的右边因为$A$可数因此零测度，所以积分为0.（闭区间$[0,1]$上L可积未必R可积，但是如果R可积，那么一定L可积并且相等)</li>
+</ul>
+<h3 id="2weyls-criterion能处理的典型问题">2.Weyl&rsquo;s Criterion能处理的典型问题
+</h3><h4 id="21-命题1">2.1 命题1
+</h4><blockquote>
+<p>[!命题1]
+$u_n=b\log(n)$对任意的$b$，此序列都不会是模1均匀分布的。</p>
+</blockquote>
+<p>对于此问题我们只需要证明，对于任意的非0整数$k$,</p>
+$$\frac{1}{N}\sum_{n=1}^{N}e^{ic\log(n)}\text{不会趋于0},c=2\pi bk$$<p>其基本方法是用Euler-Maclaurin求和公式。这是非常自然的，因为最后无非就是要确认此求和是否为$o(N)$的求和，从而除以$N$以后的整体是否为$o(1)$，因此使用求和估计的工具。由求和公式：</p>
+$$\sum_{n=1}^{N}f(n)=\int_{1}^{N}f(x)\,dx+{\frac{f(1)+f(N)}{2}}+\int_{1}^{N}\left(\{x\}-{\frac{1}{2}}\right)f^{\prime}(x)\,dx$$<p>此处$f(x):=e^{ic\log(x)}$。第一项$\int_{1}^{N}f(x)dx=\frac{i-iN\cdot N^{ic}}{-i+c}$,第一项如果除以$N$那么最后因为$N^{ic}$是没有极限的。然后看后面两项，如果没有其他问题，那么可以证明这个序列不是均匀分布的。第二项因为是$O(1)$所以除以$N$以后一定是$o(1)$.第三项，$|{x}-1/2|\leq1/2$，然后$|f&rsquo;(x)|=\frac{c}{2x}$于是第三项除以$N$之后等于$O(\log(N)/N)$.综上所述，最后极限不存在，因此此序列不可能是均匀分布的。</p>
+<h4 id="22-命题2">2.2 命题2
+</h4><blockquote>
+<p>[!命题2]
+$u_n=n\gamma$,其中$\gamma$是任意的一个正无理数，该序列是模1均匀分布的。</p>
+</blockquote>
+<p>这个例子可以作为Weyl Criterion的一个动机。因为如果我们按照定义来说，此时</p>
+$$\frac{1}{N}\#\{1\leq n\leq N:\xi_n\in(a,b)\}=\frac{1}{N}\sum_{n=1}^{N}\chi_{(a,b)}(\xi_n)$$<p>右边恰好就是$b-a=\int_{0}^{1}\chi_{(a,b)}(x)dx$.于是此序列是否均匀分布只需要验证，是否:</p>
+$$\frac{1}{N}\sum_{n=1}^{N}\chi_{(a,b)}(\xi_n)\to\int_{0}^{1}\chi_{(a,b)}(x)dx$$<p>然后Weyl&rsquo;s criterion告诉我们，只需要判断是否</p>
+$$\frac{1}{N}\sum_{n=1}^{N}e^{2\pi ikn\gamma}=\frac{e^{2\pi ik\gamma}}{N}\frac{1-e^{2\pi ikN\gamma}}{1-e^{2\pi ik\gamma}}\to0$$<p>这并不难判断。</p>
+<h4 id="3-命题3">3. 命题3
+</h4><blockquote>
+<p>[!命题3]
+$u_n=an^{b},a\neq0,b\in(0,1)$,那么这个序列是模1均匀分布的。</p>
+</blockquote>
+<p>也就是说我们实际上需要估计求和，</p>
+$$\frac{1}{N}\sum_{n=1}^{N}e(cn^b),e(x)=e^{2\pi ix},c=ak$$<p>由Euler-Maclaurin求和公式，其中我们需要估计两个积分。第一个</p>
+$$\int_{1}^{N}e(cx^b)dx=O(N^{1-b})$$<p>这其中一个关键的技巧是分部积分。然后是对余项的估计，也就是</p>
+$$M\int_{1}^{N}(x-\{x\})x^{b-1}e(cx^b)dx=O\left(\int_{1}^{N}x^{b-1}dx\right)=O(N^{b})$$<p>于是</p>
+$$\frac{1}{N}\sum_{n=1}^{N}e(cn^b)=O(N^{-b})+O(N^{b-1})$$<p>因此$u_n$是模1均匀分布的序列。</p>
+<h4 id="4还可以利用这种结论证明一些极限问题">4.还可以利用这种结论证明一些极限问题
+</h4><blockquote>
+<p>[!命题4]
 </p>
-$$\exists N,\forall n>N,s.t.\frac{1}{x_n+1}-\frac{1}{x_n}>\frac{a}{2}$$$$\frac{1}{x_n+1}>\frac{1}{x_1}+\frac{a}{2}(n-N+1)$$$$x_{n+1}<\frac{1}{\frac{1}{x_1}+\frac{a}{2}(n-N+1)}=O(\frac{1}{n})$$<p>
-2利用递推公式（<strong>第一项保留</strong>目的是使能求和）
-</p>
-$$\frac{1}{x_{n+1}}=\frac{1}{x_{n}}+a+O(\frac{1}{n})$$<p>
-3求和
-</p>
-$$\frac{1}{x_{n+1}}=\frac{1}{x_{1}}+an+O(\ln n)=an+O(\ln n)$$<p>
-1给出余项估计
-</p>
-$$x_{n+1}=\frac{1}{an+O(\ln n)}=\frac{1}{an}\cdot\frac{1}{1+O(\frac{\ln n}{n})}=\frac{1}{an}+O(\frac{\ln n}{n^2})$$<p>
-2利用递推公式
-</p>
-$$\frac{1}{x_{n+1}}=\frac{1}{x_{n}}+a+b(\frac{1}{an}+O(\frac{\ln n}{n^2}))+o(\frac{1}{an}+O(\frac{\ln n}{n^2}))$$$$=\frac{1}{x_{n+1}}=\frac{1}{x_{n}}+a+\frac{b}{an}+o(\frac{1}{n})$$<p>
-3求和
-</p>
-$$\frac{1}{x_{n+1}}=\frac{1}{x_{1}}+an+\frac{b}{a}\ln n+o(\ln n)$$<p>
-于是有
-</p>
-$$x_n=\frac{1}{an+\frac{b}{a}\ln n+o(\ln n)}$$$$=\frac{1}{an}\cdot\frac{1}{1+\frac{b\ln n}{a^2n}+o(\frac{\ln n}{n})}$$$$=\frac{1}{an}(1-\frac{b\ln n}{a^2n}+o(\frac{\ln n}{n}))$$<p>
-于是
-</p>
-$$x_n=\frac{1}{an}-\frac{b}{a^3}\frac{\ln n}{n^2}+o(\frac{\ln n}{n^2})$$
+$$\frac{\sum_{n=1}^{N}|\cos(n^2)|}{N}\to\frac{2}{\pi}=\frac{1}{2\pi}\int_{0}^{2\pi}|\cos(x)|dx$$</blockquote>
+<p>这里我们只用证明下面这个命题即可：</p>
+<blockquote>
+<p>[!命题5]
+$n^2$模$2\pi$在$[0,2\pi]$当中均匀分布</p>
+</blockquote>
+<p>不过这里不用估计指数和，而是利用</p>
+<blockquote>
+<p>[!van der Corput&rsquo;s difference theorem,1931]
+如果序列$u_{n+1}-u_n$是模1均匀分布的，那么$u_n$也是。</p>
+</blockquote>
+<p>借助这个定理，我们知道$n^2$的差分的序列因为命题2是模1均匀分布的，因此其本身也是模1均匀分布的。</p>
+<h3 id="5-使用weyl判别当中的第二条">5. 使用Weyl判别当中的第二条
+</h3><p>如果序列不是光滑函数的形式，那么就不能用对光滑函数的求和估计的方法对$\frac{1}{N}\sum_{n=1}^{N}e^{2\pi iku_n}$的估计。</p>
+<blockquote>
+<p>[!命题6]
+比如${\frac{0}{1},\frac{0}{2},\frac{1}{2},\frac{0}{3},\frac{1}{3},\frac{2}{3},\dots\frac{k-1}{k},&hellip;}$的序列是模1均匀分布的。</p>
+</blockquote>
+<p>这样就不能用Weyl的第一条判别方法。但是可以用第二条判别，即如果对于任意连续函数都有求和的极限趋近函数的积分，那么也可以判断序列是模1均匀分布的。</p>
+<p>具体证明可以参考:
+<a class="link" href="https://math.stackexchange.com/questions/3591743/show-that-the-sequence-frac01-frac02-frac12-frac03-fra"  target="_blank" rel="noopener"
+    >https://math.stackexchange.com/questions/3591743/show-that-the-sequence-frac01-frac02-frac12-frac03-fra</a></p>
+<p>关于这样定义出来的群的确是一个拓扑群，即拓扑结构与群结构保持一定的和谐，具体来说就是：</p>
+<ol>
+<li>群运算的连续性</li>
+<li>逆运算的连续性
+而这些可以被保证是因为：</li>
+</ol>
+<blockquote>
+<p>[!lemma1]
+如果$G$是一个拓扑群，$N \lhd G$是该群的一个正规子群，那么商群$G/N$也是一个拓扑群，其拓扑由商拓扑定义。商映射$q:G\to G/N$是一个开映射，$G/N$是Hausdroff的当且仅当$N$是闭集。</p>
+</blockquote>
+<p>此lemma还有一个推论</p>
+<blockquote>
+<p>[!lemma1的推论]
+如果$G$是一个局部紧的拓扑群，并且$N \lhd G$是一个闭的正规子群，那么商群$G/N$也是一个局部紧的拓扑群。</p>
+</blockquote>
+<p>于是如果我们令$G = (\mathbb{R},+)$，这当然是一个局部紧的交换群，然后令$N = (\mathbb{Z},+)$作为一个闭的子群，因为是作为交换子群因此一定是正规的。于是商群$\mathbb{R}/\mathbb{Z}$按照上述引理自然就是一个局部紧的Hausdroff的拓扑群。</p>
+<blockquote>
+<p>[!拓扑群的同态基本定理]
+假设$f:G \to H$是拓扑群之间的连续同态映射，那么$G/\text{ker}f$到$H$之间的同态是拓扑群之间的同构当且仅当$f$是满的开映射。</p>
+</blockquote>
+<p>所以其实这里我们只需要说明$\mathbb{R}\ni x \mapsto e^{2\pi i x} \in \mathbb{T}$是一个开映射即可。而验证是否是开集，我们只需要验证实数的欧氏拓扑的拓扑基当中的元素是否可以被映射为开集。这不难看出，因为对于开区间$I\subseteq \mathbb{R}$而言，如果$I$包含了$[0,1)$那么映射的结果是整个$\mathbb{T}$那么自然是开集，如果不包含$[0,1)$那么其结果是单位圆周上一段开的圆弧，也是开集。因为后者的拓扑是由单位圆周作为复平面上欧氏拓扑的子拓扑生成的，其拓扑的基就是一段一段的开的连续的圆弧。</p>
+<p>其实从上面的例子就能看出来，$\mathbb{T}$的拓扑结构和圆周是非常类似的。$\mathbb{T}$就像是一个周长为1的圆周，当$(a,b)$的长度大于1的时候，经过商映射以后的像就是在圆周上超过一圈的圆弧。当$(a,b)$当中包含一个整数的时候，映射后的像相当于圆周上过圆弧的起点的一段圆弧。</p>
+
 </section>
 
 
@@ -471,7 +612,7 @@ $$x_n=\frac{1}{an}-\frac{b}{a^3}\frac{\ln n}{n^2}+o(\frac{\ln n}{n^2})$$
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.164e67cdb5925b31d9ce18c85f90373f4ef13e8acba10efb9c738379905ff9c4.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');
